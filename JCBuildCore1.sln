@@ -8,6 +8,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C42989FC-210A-45B3-9171-00DD057D9248}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		link.txt = link.txt
 	EndProjectSection
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "JCBuildCore1", "src\JCBuildCore1\JCBuildCore1.xproj", "{BC6C35F0-47AF-4F13-BEDE-5C1356A52AA3}"
