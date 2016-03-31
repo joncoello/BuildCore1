@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "JCBuildCore1", "src\JCBuildCore1\JCBuildCore1.xproj", "{BC6C35F0-47AF-4F13-BEDE-5C1356A52AA3}"
 EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "JCBuildCore1Tests", "src\JCBuildCore1Tests\JCBuildCore1Tests.xproj", "{A5B40F17-AD9C-4581-B7CC-9769830414C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,11 +24,16 @@ Global
 		{BC6C35F0-47AF-4F13-BEDE-5C1356A52AA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC6C35F0-47AF-4F13-BEDE-5C1356A52AA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC6C35F0-47AF-4F13-BEDE-5C1356A52AA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5B40F17-AD9C-4581-B7CC-9769830414C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5B40F17-AD9C-4581-B7CC-9769830414C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5B40F17-AD9C-4581-B7CC-9769830414C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5B40F17-AD9C-4581-B7CC-9769830414C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{BC6C35F0-47AF-4F13-BEDE-5C1356A52AA3} = {C6BBFE9E-B1DA-4ACE-967D-E367C489DD94}
+		{A5B40F17-AD9C-4581-B7CC-9769830414C9} = {C6BBFE9E-B1DA-4ACE-967D-E367C489DD94}
 	EndGlobalSection
 EndGlobal
