@@ -53,6 +53,11 @@ namespace JCBuildCore1
             // Add application services.
             services.AddTransient<IEmailSender, AuthMessageSender>();
             services.AddTransient<ISmsSender, AuthMessageSender>();
+
+            services.AddEntityFramework()
+                .AddSqlServer()
+                .AddDbContext<JCBuildCore1Context>(options =>
+                    options.UseSqlServer(@"Server=(localdb)\mssqllocaldb;Database=JCBuildCore1Context-6c17f9d2-e104-4c54-9dca-9aec7d96cc0c;Trusted_Connection=True;MultipleActiveResultSets=true"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
